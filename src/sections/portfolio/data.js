@@ -35,7 +35,7 @@ const data = [
         title: "React Porfolio (React)",
         desc: "Developed a web portfolio using React showcasing my other projects and contact information",
         demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        github: 'https://github.com/CarlosLG5/react-app-portfolio.git'
     },
 
     /*
