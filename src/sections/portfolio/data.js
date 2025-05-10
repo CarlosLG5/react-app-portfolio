@@ -11,31 +11,34 @@ import Image9 from '../../assets/project9.jpg'
 const data = [
     {
         id: 1,
-        category: 'uiux',
+        category: 'Mobile Development', 
         image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "Virtual Fitting Room (Flutter + PyTorch)",
+        desc: "Integrated a machine learning regression model using Python and PyTorch to estimate clothing sizes. Implemented user input features for height, weight, and image processing. Used Git for version control and facilitated daily standups and sprint planning.",
         demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        github: 'https://github.com/CarlosLG5/VirtualFittingRoom.git'
     },
     {
         id: 2,
-        category: 'frontend',
+        category: 'Game Development',
         image: Image2,
-        title: "Project Title Two (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "Dungeon Game (Unity + C#)",
+        desc: "Designed and implemented a 2D game using Unity and C#. Developed animations, physics, and gameplay mechanics. Collaborated with peers and managed source code with GitHub.",
         demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        github: 'https://github.com/CarlosLG5/GameDesignGame.git'
     },
+    
     {
         id: 3,
-        category: 'frontend',
+        category: 'React',
         image: Image3,
-        title: "Project Title Three (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "React Porfolio (React)",
+        desc: "Developed a web portfolio using React showcasing my other projects and contact information",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
     },
+
+    /*
     {
         id: 4,
         category: 'uiux',
@@ -90,6 +93,7 @@ const data = [
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
     }
+*/
 ]
 
 

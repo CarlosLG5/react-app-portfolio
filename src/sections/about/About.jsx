@@ -7,7 +7,7 @@ import './about.css'
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" data-aos="fade-in">
         <div className="container about__container">
             <div className="about__left">
                 <div className="about__portrait">
@@ -28,10 +28,10 @@ const About = () => {
                     }
                 </div>
                 <p>
-                Building projects my clients love have always been my passion. Being in the web development industry for over 3 years and serving more than 70 happy clients worldwide, I'm always motivated to do more!
+                Building impactful and innovative software has been a driving force throughout my academic and professional journey. With a background in engineering and a Bachelor’s in Computer Science from the University of Massachusetts Dartmouth (May 2025), I’ve led teams, shipped full-stack applications, and implemented machine learning models to solve real-world problems. Whether I’m developing mobile apps in Flutter or deploying backend services with Node.js, I’m always focused on writing clean, scalable code that delivers results.
                 </p>
                 <p>
-                Hi, I'm Carlos Lazcano, a graduate from the University of Massachusetts Dartmouth.
+                I’m Carlos Lazcano — a builder, problem solver, and soon-to-be software engineer who’s ready to contribute to forward-thinking development teams.
                 </p>
                 <a href={CV} download className='btn primary'>Download CV <HiDownload/></a>
             </div>

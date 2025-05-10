@@ -6,8 +6,8 @@ import './services.css'
 const Services = () => {
   return (
     <section id="services"><h2>Services</h2>
-    <p>I give you the best in all services below</p>
-    <div className="container services__container">
+    <p>I give the best in the following services!</p>
+    <div className="container services__container" data-aos="fade-up">
       {
       data.map(item => (
       <Card key={item.id} className="service light">
